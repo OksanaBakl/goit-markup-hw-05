@@ -307,7 +307,11 @@ right: 0;
 margin-top: 8px;
 margin-right: 8px;
 cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
+
 /*========Feature list========*/
 
 .section-feature {
@@ -628,7 +632,6 @@ cursor: pointer;
 }
 .social {
   display: flex;
-
 }
 .social-item-f .ellipce {
   width: 44px;
@@ -646,13 +649,14 @@ cursor: pointer;
     transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .social-item-f .ellipce:hover,
 .social-item-f .ellipce:focus {
   background-color: var(--accent-color);
   cursor: pointer;
 }
 
-.box-icon.inst {
+.social-item-f .box-icon {
   fill:#ffffff;
   align-self: center;
  margin-right: auto;
